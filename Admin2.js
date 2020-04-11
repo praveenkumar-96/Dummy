@@ -6,7 +6,7 @@ var worksheet = workbook.Sheets['Sheet2'];
       browser.ignoreSynchronization=true;
       browser.get(worksheet['C2'].v);
       browser.manage().window().maximize();
-      browser.sleep('5000');
+      browser.sleep('4000');
       element(by.id('username')).sendKeys(worksheet['A2'].v);
       browser.sleep('3000');
       element(by.id('password')).sendKeys(worksheet['B2'].v);
